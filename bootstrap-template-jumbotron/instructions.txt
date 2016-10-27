@@ -1,0 +1,13 @@
+1. Move application.html.erb into your app/views/layouts/ (replace the one that is already there)
+
+2. Move home.html.erb and about.html.erb into your app/views/pages (replace the ones that are already there)
+
+3. Move pages.scss into your app/assets/stylesheets (replace the one that is already there)
+
+4. Add home-bg.jpg to your app/assets/images
+
+5. 
+
+Add the following line to your application.scss:
+
+@import "pages";
